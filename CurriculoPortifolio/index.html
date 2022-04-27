@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Curriculo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="ladoEsq">
+
+            <div class="perfil">
+                <div class="img_def">
+                    <img src="foto.jpg">
+                </div>
+                <h4>Marcos Rigel</h4>
+                <h3>Ciência da computação 5/8<h3>
+                <button class="btn" onclick="PDF();">Imprimir PDF</button>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">Contato:</h4>
+                <ul>
+                    <li>
+                        <span class="text">marcosrigel99@gmail.com</span>
+                    </li>
+                    
+                    <li>
+                        <span class="text">(81) 99499-4977 </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">Endereço</h4>
+                <ul class="Endereço">
+                    <li>
+                        <span class="text"> R. Mal. Cândido Rondon </span>
+                    </li>
+                    <li>
+                        <span class="text"> Paulista - PE, 53439-150 </span>
+                    </li>
+                    <li>
+                        <span class="text"> 190 Apartamento 303 </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">línguas:</h4>
+                <ul class="linguas">
+                    <li>
+                        <span class="text">Inglês (mediano)</span>
+                    </li>
+                    <li>
+                        <span class="text">Português(br)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="LadoDir">
+
+            <div class="itensDir">
+                <h3 class="title">Objetivo</h3>
+                <p>Procuro apenas uma vaga na área de desenvolvimento de software.</p>
+            </div>
+
+            <div class="itensDir">
+                <h3 class="title">Experiência</h3>
+                <div class="experiencia">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="intervalo">
+                        </div>
+                        <div class="descricao">
+                            <h4>Desenvolvimento em Back-end</h4>
+                            <p>Possuo um conhecimento avançado em linguagens de programação de Back-end.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experiencia">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="intervalo">
+                        </div>
+                        <div class="descricao">
+                            <h4>Desenvolvimento de Front-end </h4>
+                            <p>Possuo um conhecimento aidna que rasoável em linguagens de programação de Front-end</p>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+
+            <div class="itensDir">
+                <h3 class="title">Habilidades</h3>
+
+                <div class="habilidades">
+                    <h4>Java</h4>
+                    <div class="porcent">
+                        <div style="width: 70%"> </div>
+                    </div>
+                </div>
+
+                <div class="habilidades">
+                    <h4>CSharp</h4>
+                    <div class="porcent">
+                        <div style="width: 70%"> </div>
+                    </div>
+                </div>
+
+                <div class="habilidades">
+                    <h4>Python</h4>
+                    <div class="porcent">
+                        <div style="width: 30%"> </div>
+                    </div>
+                </div>
+
+                <div class="habilidades">
+                    <h4>HTML</h4>
+                    <div class="porcent">
+                        <div style="width: 80%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>CSS</h4>
+                    <div class="porcent">
+                        <div style="width: 95%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>JavaScript</h4>
+                    <div class="porcent">
+                        <div style="width: 75%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>GML</h4>
+                    <div class="porcent">
+                        <div style="width: 80%"> </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+
+    <script src="all.min.js"></script>
+
+    <script>
+        var btn = document.querySelector("button")
+        btn.onclick = () =>{
+            window.print();
+        }
+    </script>
+</body>
+
+</html>
